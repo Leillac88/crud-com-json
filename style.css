@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #2f2d2d;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    color: #ccc;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+
+input {
+    padding: 0.6rem 1rem;
+    margin: 0.5rem;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    width: 250px;
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    border-color: #3c57ce;
+    outline: none;
+}
+
+#btnCriar {
+    padding: 0.6rem 1.2rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#btnCriar:hover {
+    background-color: #2a40a1;
+}
+
+#listaUsuarios {
+    list-style: none;
+    margin-top: 2rem;
+    width: 100%;
+    max-width: 500px;
+}
+
+#listaUsuarios li {
+    background-color: rgb(255, 255, 255);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+#listaUsuarios button {
+    margin-left: 0.5rem;
+    padding: 0.4rem 0.8rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+#listaUsuarios li button:first-of-type {
+    background-color: #007bff;
+    color: white;
+}
+
+#listaUsuarios li button:last-of-type {
+    background-color: #dc3545;
+    color: white;
+}
+
+#listaUsuarios li button:first-of-type:hover {
+    background-color: #174576;
+    color: white;
+}
+
+#listaUsuarios li button:last-of-type:hover {
+    background-color: #ab202e;
+    color: white;
+}
+
+
